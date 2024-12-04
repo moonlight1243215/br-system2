@@ -1,0 +1,75 @@
+.newItemBox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 105px;
+    background-color: #1b193e;
+    display: flex;
+}
+
+.newItemBox input {
+    height: 40px;
+    border: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.newItemBox input::placeholder {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startUserNew,
+.endUserNew,
+.companyNameNew,
+.mailDateNew,
+.mailTimeNew,
+.mailIdNew,
+.realizationDateNew,
+.workerPositionNew,
+.workerWorkTimeNew,
+.realTimeWorkNew,
+.invoiceWorkTimeNew,
+.workerKilometersNew,
+.invoiceKilometersNew,
+.rSevenNew,
+.mechanicNew,
+.addedCoastNew {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.realizationPlaceNew,
+.workerNameNew,
+.workerRouteNew,
+.commentNew {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.downBox,
+.upBox {
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.newItem {
+    height: 100%;
+    width: 18%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #1b193e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
